@@ -1,0 +1,131 @@
+* {
+box-sizing: border-box;
+}
+
+.header {
+border: 1px solid red;
+padding: 7px;
+display: flex;
+
+ padding-bottom: 4px;
+ padding-top: 4px;
+}
+.logo{
+    width: 15%;
+    float: left;
+border: 1px solid red;
+}
+.menuwrap{
+    width: 12%;
+    float: left;
+    border: 1px solid red;
+}
+.navbar{
+    border: 1px solid red;
+    width: 73%;
+    display: flex;
+justify-content: flex-end;
+flex-direction: row;
+float: left;
+
+}
+h1, h3, button{
+    margin: 10px;
+}
+h1{
+    font-size: 3vh;
+}
+.menu {
+width: 25%;
+float: left;
+padding: 15px;
+border: 1px solid red;
+}
+
+.main {
+    margin-left: 0.5%;
+width: 74.5%;
+float: left;
+padding: 15px;
+border: 1px solid red;
+}
+
+.hero{
+border: 1px solid red;
+padding: 15px;
+margin-top: 3px;
+float: left;
+width: 100%;
+}
+.bes{
+   width: 25%;
+float: left;
+padding: 15px;
+border: 1px solid red; 
+}
+.bess{
+      margin-left: 0.5%;
+      margin-right: 0.5%;
+width: 49%;
+float: left;
+padding: 15px;
+border: 1px solid red;
+}
+.besss{
+      width: 25%;
+float: left;
+padding: 15px;
+border: 1px solid red;
+}
+a{
+    text-decoration:none;
+}
+button{
+    width:4rem;
+     height: 23px;
+}
+@media only screen and (max-width: 600px) {
+  .navbar, .logo, .besss, .bess, .bes, .main, .hero, .header, .menu, .menuwrap{
+   width: 100%;
+  }
+  .bess, .main, .hero {
+      margin: 0px;
+  }
+  h1, h3{
+    margin-top: 2px;
+   font-size: 2vh;
+}
+.navbar, .header{
+    flex-direction:column;
+    --display: inline-block;
+}
+
+button{
+    width:4rem;
+    height: 23px;
+}
+.mlogo{
+    width:70%;
+}
+.navbar{
+    display:none;
+}
+.menubar{
+   display:block !important;
+}
+
+}
+/*@media only screen and(max-width:758px){/*
+#logo{
+    width:70%;
+}
+.navbar, .logo{
+    width:100%;
+}
+}*/
+.menubar{
+     display: none;
+}
+.mlogo{
+    width:100%
+}
